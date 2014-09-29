@@ -11,3 +11,13 @@ body {
   color: #ccc;
   content: "\003e";
 }
+
+.fa {
+	font-size: 20px;
+}
+
+.form-control {
+	border-radius: 4px 0 0 4px;
+	position: relative;
+	right: -6px;
+}
