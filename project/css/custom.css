@@ -2,3 +2,9 @@
 body {
     padding-top: 20px;
 }
+
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: "\003e";
+}
