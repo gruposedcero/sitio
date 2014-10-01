@@ -1,6 +1,7 @@
 /* Custom Css */
 body {
     padding-top: 20px;
+    max-width: none;
 }
 
 /* Icons */
@@ -33,7 +34,7 @@ body {
 
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
 
 	/* Main Menu */
 	.nav > li > a {
@@ -56,7 +57,7 @@ body {
 
 /* Large devices (large desktops, 1200px and up) */
     @media screen and (min-width: 1200px) {
-	
+
 	/* Main Menu */
 	.nav > li > a {
 		padding: 10px 26px;
