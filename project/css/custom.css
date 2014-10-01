@@ -3,6 +3,19 @@ body {
     padding-top: 20px;
 }
 
+/* Icons */
+.fa {
+	font-size: 20px;
+}
+
+/* Search form */
+.form-control {
+	border-radius: 4px 0 0 4px;
+	position: relative;
+	right: -6px;
+}
+
+/* Breadcrumb */
 .breadcrumb {
 	background-color: #FFFFFF;
 }
@@ -12,12 +25,41 @@ body {
   content: "\003e";
 }
 
-.fa {
-	font-size: 20px;
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+	/* Main Menu */
+	.nav > li > a {
+		padding: 10px 23px;
+	}
+
 }
 
-.form-control {
-	border-radius: 4px 0 0 4px;
-	position: relative;
-	right: -6px;
+
+/* Medium devices (desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+
+	/* Main Menu */
+	.nav > li > a {
+		padding: 10px 14px;
+	}
+
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+    @media screen and (min-width: 1200px) {
+	
+	/* Main Menu */
+	.nav > li > a {
+		padding: 10px 26px;
+	}
+
 }
