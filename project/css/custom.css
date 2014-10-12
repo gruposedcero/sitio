@@ -1,19 +1,39 @@
 /* Custom Css */
 body {
-    padding-top: 20px;
+    padding-top: 12px;
     max-width: none;
 }
 
+header img.logo {
+	margin-bottom: 10px;
+}
+
+h1 {
+	color: #FF9900;
+	font-size: 32px;
+}
+h2 {
+	color: #666;
+}
+
+p {
+	font-size: 16px;
+    margin: 0 0 5px;
+}
+
 /* Icons */
-.fa {
-	font-size: 20px;
+header .social-media {
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 /* Search form */
-.form-control {
+form .form-control {
 	border-radius: 4px 0 0 4px;
 	position: relative;
 	right: -6px;
+	font-size: 13px;
+	color:#EEE;
 }
 
 /* Breadcrumb */
@@ -26,8 +46,119 @@ body {
   content: "\003e";
 }
 
+nav {
+	background-color: #00AECE;
+	margin-bottom: 15px;
+}
 
+nav li a {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.nav-pills > li + li {
+    margin-left: 0;
+}
+/* Main Menu */
+.nav > li {
+	padding: 0;
+	border-right: 1px solid #fff;
+}
+.nav > li:hover,
+.nav > li a:hover {
+	background-color: #92bce0;
+	color: #FFF;
+	text-decoration: underline;
+}
+.container .nav > li > a {
+	padding: 10px 28px;
+}
+.container .nav > li:last-child > a {
+	padding: 10px 30px;
+}
+.container .nav > li:last-child {
+	padding: 0;
+}
+.nav > li:last-child {
+	border-right: none;
+}
 
+.banner {
+	position: relative;
+	margin-bottom: 30px;
+}
+.banner h1 {
+	background-color: rgba(0,0,0,.8);
+    bottom: 10%;
+    color: #ffffff;
+    line-height: 40px;
+    margin: 0;
+    padding: 10px 15px;
+    position: absolute;
+    width: 53%;
+}
+
+section:first-of-type {
+	margin-bottom: 40px;
+}
+section:first-of-type p:first-of-type {
+	margin-bottom: 25px;
+}
+section.nuestros-proyectos {
+    background-color: #f6f6f6;
+    padding: 15px 15px;
+}
+section.nuestros-proyectos h3 {
+	margin-bottom: 16px;
+    margin-top: 7px;
+}
+
+section.nuestros-proyectos a:hover {
+	text-decoration: none;
+}
+
+section.nuestros-proyectos a article:hover {
+	border: 1px solid #428bca;
+	box-shadow: 0px 0px 2px 0px #428bca;
+}
+
+section.nuestros-proyectos aside h3 {
+    font-size: 16px;
+    margin-bottom: 18px;
+    margin-top: 14px;
+}
+section.nuestros-proyectos aside h4 {
+	font-size: 14px;
+	margin: 2px 0 0 0;
+}
+section.nuestros-proyectos .progress-bar {
+	background-color: #2ec000;
+}
+
+/*botones*/
+section.nuestros-proyectos ul, ol {
+    margin-bottom: 15px;
+}
+section.nuestros-proyectos .btn {
+	width: 100%;
+}
+section.nuestros-proyectos .btn.btn-general {
+	width: auto;
+}
+section.nuestros-proyectos .btn.btn-general:hover {
+	text-decoration: underline;
+	color: #428bca;
+}
+
+section.nuestros-proyectos .btn-primary {
+    background-color: #FF9900;
+    border-color: #FF9900;
+    color: #fff;
+}
+section.nuestros-proyectos .btn-primary:hover {
+    background-color: #ffa722;
+    border-color: #ffa722;
+    text-decoration: underline;
+}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -49,18 +180,21 @@ body {
 
 	/* Main Menu */
 	.nav > li > a {
-		padding: 10px 18px;
+		padding: 10px 13px;
 	}
 
 }
 
 
 /* Large devices (large desktops, 1200px and up) */
-    @media screen and (min-width: 1200px) {
+    @media screen and (max-width: 1200px) {
 
 	/* Main Menu */
-	.nav > li > a {
-		padding: 10px 33px;
-	}
+.container .nav > li > a {
+	padding: 10px 14px;
+}
+.container .nav > li:last-child > a {
+	padding: 10px 14px;
+}
 
 }
