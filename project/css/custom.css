@@ -36,7 +36,9 @@ header .social-media {
     margin-bottom: 10px;
     margin-top: 30px;
 }
-
+header .social-media img:hover {
+    opacity: 0.8;
+}
 /* Search form */
 form .form-control {
 	border-radius: 4px 0 0 4px;
@@ -114,7 +116,8 @@ section:first-of-type p:first-of-type {
 	margin-bottom: 25px;
 }
 section.nuestros-proyectos {
-    background-color: #f6f6f6;
+    background-color: rgba(0, 0, 0, 0.02);
+    border: 1px solid #DDDDDD;
     padding: 15px 15px;
 }
 section.nuestros-proyectos h3 {
@@ -198,33 +201,42 @@ section.nuestros-proyectos .btn-primary:hover {
 footer {
 	margin-top: 25px;
 	margin-bottom: 25px;
+	padding: 20px;
 }
 footer img {
 	height: 80px;
 }
 footer img.logo {
-	height: 60px;
+	float: left;
+    height: 40px;
+    margin-right: 75px;
 }
 footer ul {
-	margin: 10px 0 0 0;
+	margin: 12px 0 0 0;
 	padding: 0;
 
 }
 footer ul li {
 	list-style-type: none;
 	font-size: 14px;
+	display: inline;
+	margin-right: 15px;
 }
 footer ul li span {
 	font-weight: bold;
 }
+footer .sponsors {
+	margin: 0 auto;
+	width: 300px;
+}
 footer .sponsors img {
 	height: 50px;
-	margin-top: 50px;
+    margin-top: 20px;
 }
 footer .sponsors img:first-of-type {
 	height: 70px;
-	margin-top: 40px;
-	margin-right: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
 }
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
