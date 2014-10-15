@@ -21,7 +21,16 @@ p {
 	font-size: 16px;
     margin: 0 0 5px;
 }
-
+.left-border {
+	border-left: 1px solid #CCCCCC;
+	padding-bottom: 10px;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
 /* Icons */
 header .social-media {
     margin-bottom: 10px;
@@ -34,7 +43,7 @@ form .form-control {
 	position: relative;
 	right: -6px;
 	font-size: 13px;
-	color:#EEE;
+	color:#666666;
 }
 
 /* Breadcrumb */
@@ -121,7 +130,15 @@ section.nuestros-proyectos a article:hover {
 	border: 1px solid #428bca;
 	box-shadow: 0px 0px 2px 0px #428bca;
 }
-
+section.nuestros-proyectos article h3 {
+	font-size: 22px;
+}
+section.nuestros-proyectos article ul {
+	padding-left: 35px;
+}
+section.nuestros-proyectos article p {
+	font-size: 14px;
+}
 section.nuestros-proyectos aside h3 {
     font-size: 16px;
     margin-bottom: 18px;
@@ -131,8 +148,21 @@ section.nuestros-proyectos aside h4 {
 	font-size: 14px;
 	margin: 2px 0 0 0;
 }
-section.nuestros-proyectos .progress-bar {
-	background-color: #2ec000;
+section.nuestros-proyectos aside article .caption {
+	padding: 4px 2px;
+}
+section.nuestros-proyectos aside article img {
+	height: 91px;
+	width: 100%;
+}
+section.nuestros-proyectos .progress-bar.progress-bar-small {
+	background-color: #660000;
+}
+section.nuestros-proyectos .progress-bar.progress-bar-medium {
+	background-color: #CC3300;
+}
+section.nuestros-proyectos .progress-bar.progress-bar-big {
+	background-color: #006600;
 }
 
 /*botones*/
@@ -142,8 +172,12 @@ section.nuestros-proyectos ul, ol {
 section.nuestros-proyectos .btn {
 	width: 100%;
 }
-section.nuestros-proyectos .btn.btn-general {
-	width: auto;
+section.nuestros-proyectos .btn-general-container .btn {
+	width: 0 auto;
+}
+section.nuestros-proyectos .btn-general-container .btn:hover {
+	color:#428bca;
+	text-decoration: underline;
 }
 section.nuestros-proyectos .btn.btn-general:hover {
 	text-decoration: underline;
@@ -162,7 +196,8 @@ section.nuestros-proyectos .btn-primary:hover {
 }
 
 footer {
-	margin-top: 20px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 footer img {
 	height: 80px;
@@ -171,9 +206,26 @@ footer img.logo {
 	height: 60px;
 }
 footer ul {
-	margin-top: 10px;
-}
+	margin: 10px 0 0 0;
+	padding: 0;
 
+}
+footer ul li {
+	list-style-type: none;
+	font-size: 14px;
+}
+footer ul li span {
+	font-weight: bold;
+}
+footer .sponsors img {
+	height: 50px;
+	margin-top: 50px;
+}
+footer .sponsors img:first-of-type {
+	height: 70px;
+	margin-top: 40px;
+	margin-right: 30px;
+}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
