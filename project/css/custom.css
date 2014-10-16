@@ -18,19 +18,28 @@ h2 {
 	margin-bottom: 15px;
 	margin-top: 25px;
 }
+.thumbnail .caption {
+    padding: 9px 9px 15px;
+}
 #nuestros-proyectos .thumbnail h2:first-of-type {
-	margin-bottom: 20px;
+	margin-bottom: 5px;
     margin-top: 10px;
 }
+
 #nuestros-proyectos .thumbnail:first-of-type a {
 	margin-bottom: 10px;
     margin-top: 5px;
 }
+#nuestros-proyectos .thumbnail:first-of-type a:hover {
+	color: #428bca;
+	text-decoration: underline;
+}
 #nuestros-proyectos .thumbnail:first-of-type img.map {
-	margin-bottom: 20px;
-    margin-top: 20px;
-    height: 130px;
-    width: 90%;
+	height: 120px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 95%;
+    border: 1px solid #DDDDDD;
 }
 
 p {
@@ -208,6 +217,14 @@ section.nuestros-proyectos ul, ol {
 }
 section.nuestros-proyectos .btn {
 	width: 100%;
+	display: inline;
+}
+section.nuestros-proyectos article .btn {
+	display: block;
+}
+section.nuestros-proyectos .btn-general-container {
+	width: 200px;
+	margin: 0 auto;
 }
 section.nuestros-proyectos .btn-general-container .btn {
 	width: 0 auto;
