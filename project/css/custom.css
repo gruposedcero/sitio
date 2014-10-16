@@ -18,6 +18,20 @@ h2 {
 	margin-bottom: 15px;
 	margin-top: 25px;
 }
+#nuestros-proyectos .thumbnail h2:first-of-type {
+	margin-bottom: 20px;
+    margin-top: 10px;
+}
+#nuestros-proyectos .thumbnail:first-of-type a {
+	margin-bottom: 10px;
+    margin-top: 5px;
+}
+#nuestros-proyectos .thumbnail:first-of-type img.map {
+	margin-bottom: 20px;
+    margin-top: 20px;
+    height: 130px;
+    width: 90%;
+}
 
 p {
 	font-size: 16px;
@@ -60,6 +74,7 @@ form .form-control {
 /* Breadcrumb */
 .breadcrumb {
 	background-color: #FFFFFF;
+    padding: 8px 15px 1px;
 }
 .breadcrumb > li + li:before {
   padding: 0 5px;
