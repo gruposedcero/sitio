@@ -141,22 +141,31 @@ ul.nav > li a.active:hover {
 	position: relative;
 	margin-bottom: 5px;
 }
-.banner h1 {
-	background-color: rgba(0,0,0,.8);
-    bottom: 8%;
-    color: #ffffff;
-    line-height: 40px;
-    margin: 0;
-    padding: 10px 15px;
-    position: absolute;
-    width: 53%;
+.banner .img-responsive{
+    display: block;
+    height: 180px;
+    max-width: 170%;
 }
-
+.img-container {
+	overflow: hidden;
+}
+.banner h1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0;
+    padding: 8px 10px 10px;
+    position: absolute;
+    width: 100%;
+}
 section:first-of-type {
 	margin-bottom: 5px;
 }
 section:first-of-type p {
 	margin-bottom: 35px;
+	color:#888888;
 }
 section.nuestros-proyectos {
     background-color: rgba(0, 0, 0, 0.02);
@@ -223,8 +232,17 @@ section.nuestros-proyectos article .btn {
 	display: block;
 }
 section.nuestros-proyectos .btn-general-container {
-	width: 200px;
-	margin: 0 auto;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+}
+section.nuestros-proyectos .btn-general-container span {
+	padding: 5px;
+	display: inline;
+}
+section.nuestros-proyectos .btn-general-container a {
+	padding: 0 5px 2px;
+	display: inline;
 }
 section.nuestros-proyectos .btn-general-container .btn {
 	width: 0 auto;
@@ -263,16 +281,17 @@ footer img.logo {
     margin-right: 75px;
 }
 footer ul {
-	margin: 12px 0 0 0;
-	padding: 0;
+    margin: 12px 0 0;
+    padding: 55px 0 0;
+}
 
-}
 footer ul li {
-	list-style-type: none;
-	font-size: 14px;
-	display: inline;
-	margin-right: 15px;
+    display: block;
+    font-size: 12px;
 }
+
+
+
 footer ul li a {
 	color: #888888;
 }
@@ -302,9 +321,101 @@ footer .sponsors img:first-of-type {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+
+	body {
+		font-size: 12px;
+	}
 	/* Main Menu */
 	.nav > li > a {
 		padding: 10px 3px;
+	}
+	h2 {
+
+	    font-size: 20px;
+	}
+	.banner .img-responsive{
+	    height: auto;
+	    max-width: 100%;
+	}
+	.thumbnail .caption {
+	    padding: 9px 9px 3px;
+	}
+	#nuestros-proyectos .thumbnail h2:first-of-type {
+	    margin-bottom: 0;
+	    margin-top: 10px;
+	}
+	#nuestros-proyectos .thumbnail:first-of-type a {
+	    margin-bottom: 0;
+	    margin-top: 5px;
+	}
+	#nuestros-proyectos .thumbnail:first-of-type img.map {
+	    height: 90px;
+	}
+	header img.logo {
+	    margin-top: 4px;
+	}
+
+	header .social-media, header .accesibility {
+	    margin-bottom: 5px;
+	    margin-top: 0;
+	}
+
+	header .accesibility {
+	    margin-top: 1px;
+	    padding-right: 15px;
+	}
+
+	.navbar-form.navbar-right:last-child {
+	    margin-bottom: 13px;
+	    margin-right: -15px;
+	}
+	section.nuestros-proyectos article h3 {
+	    font-size: 18px;
+	}
+
+	section.nuestros-proyectos article ul {
+	    padding-left: 20px;
+	}
+
+	.thumbnail .caption {
+	    padding: 9px 9px 10px;
+	}
+	footer ul {
+	    margin: 12px 0 0;
+	    padding: 0 0 0 100px;
+	}
+	footer ul li {
+	    display: inline-block;
+	    font-size: 12px;
+	    list-style-type: none;
+	    margin-right: 15px;
+	    width: 174px;
+	}
+	footer {
+	    margin-bottom: 0;
+	    margin-top: 0;
+	    padding: 20px;
+	}
+	.breadcrumb {
+	    margin-bottom: 12px;
+    	padding: 0 15px 1px;
+	}
+
+	.banner h1 {
+	    line-height: 30px;
+	    font-size: 20px;
+	    bottom: 8%;
+	    width: 53%;
+	}
+
+	h2 {
+	    font-size: 20px;
+	    margin-bottom: 10px;
+	    margin-top: 10px;
+	}
+	section:first-of-type p {
+	    margin-bottom: 20px;
+	    font-size: 13px;
 	}
 
 }
@@ -313,23 +424,136 @@ footer .sponsors img:first-of-type {
 /* Medium devices (desktops, 992px and up) */
     @media screen and (min-width: 992px) {
 
-	/* Main Menu */
-	.nav > li > a {
-		padding: 10px 13px;
+	body {
+		font-size: 13px;
 	}
+
+	/* Main Menu */
+	.container .nav > li > a {
+	    padding: 10px 18px;
+	}
+
+	h1 {
+	    font-size: 27px;
+	}
+
+	p {
+	    font-size: 13px;
+	    margin: 0 0 5px;
+	}
+	section:first-of-type p {
+	    margin-bottom: 25px;
+	    color: #888;
+	    font-size: 15px;
+	}
+	h2 {
+	    font-size: 24px;
+	    margin-bottom: 10px;
+	    margin-top: 25px;
+	}
+	header .social-media {
+	    padding-right: 5px;
+	}	
+
+	header .social-media, header .accesibility {
+	    margin-bottom: 8px;
+	    margin-top: 23px;
+	}
+	header .accesibility {
+	    border-right: 1px solid #dddddd;
+	    margin-top: 26px;
+	    padding-right: 15px;
+	}
+	section.nuestros-proyectos article h3 {
+	    font-size: 17px;
+	}
+	section.nuestros-proyectos article ul {
+	    padding-left: 25px;
+	}
+	section.nuestros-proyectos aside h4 {
+	    font-size: 13px;
+	    margin: 2px 0 0;
+    	color: #888;
+	}
+	section.nuestros-proyectos aside article img {
+	    height: 78px;
+	}
+
+	footer {
+	    margin-bottom: 5px;
+	    margin-top: 10px;
+	    padding: 20px;
+	}
+	footer ul {
+	    padding: 0;
+	}
+	footer ul li {
+	    display: inline;
+	    font-size: 12px;
+	    list-style-type: none;
+	    margin-right: 10px;
+	}
+
+	section.nuestros-proyectos aside h3 {
+	    font-size: 13px;
+	    margin-bottom: 20px;
+	    margin-top: 15px;
+	}
+	section.nuestros-proyectos .btn-general-container a {
+	    padding: 0 5px 4px;
+	}
+	.container .nav > li > a {
+		padding: 10px 20px;
+	}
+	.container .nav > li:last-child > a {
+		padding: 10px 18px;
+	}
+	.banner h1 {
+		font-size: 20px;
+	    font-size: 25px;
+	    line-height: 30px;
+	    padding: 10px 15px 12px;
+	    width: 50%;
+	}
+	#nuestros-proyectos .thumbnail:first-of-type img.map {
+	    height: 100px;
+	}
+
 
 }
 
 
 /* Large devices (large desktops, 1200px and up) */
-    @media screen and (max-width: 1200px) {
+    @media screen and (min-width: 1200px) {
 
 	/* Main Menu */
-.container .nav > li > a {
-	padding: 10px 14px;
-}
-.container .nav > li:last-child > a {
-	padding: 10px 14px;
-}
+	.container .nav > li > a {
+		padding: 10px 35px;
+	}
+	.container .nav > li:last-child > a {
+		padding: 10px 28px;
+	}
+
+	footer ul {
+		margin: 12px 0 0 0;
+		padding: 0;
+
+	}
+	footer ul li {
+		list-style-type: none;
+		font-size: 14px;
+		display: inline;
+		margin-right: 15px;
+	}
+
+	.banner h1 {
+	    line-height: 40px;
+	    padding: 10px 15px;
+	    width: 53%;
+	    font-size: 32px;
+	}
+	section.nuestros-proyectos aside article img {
+	    height: 90px;
+	}
 
 }
