@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="utf-8">
-    <title>Sed Cero - Declaraci&oacute;n de accesibilidad</title>
+    <title>Sed Cero - Colaborar con proyectos relacionados a potabilizaci&oacute;n de agua</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
 
 
 		<!-- Header -->
-		<header class="row" role="header">
+		<header class="row">
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-5">
 		    	<a href="index.html"><img src="img/logo-sedcero.png" alt="Sed Cero. Agua para el Gran Chaco." title="Ir a la home del sitio" class="img-responsive logo"></a>
 		    </div>
@@ -110,15 +110,57 @@
 		<!-- Beggin Content -->
 		<main class="row" role="main">
 
+			<ol class="breadcrumb">
+				<li><a href="index.html" title="Ir a la home del sitio">Inicio</a></li>
+				<li><a href="index.html" title="Ir a la home del sitio">Nuestros proyectos</a></li>
+				<li><a href="index.html" title="Ir a la home del sitio">Detalle del proyecto</a></li>
+				<li class="active">Aportar dinero</li>
+			</ol>
 
 
 			<!-- Section -->
-			<section role="region">
+			<section role="region" class="col-lg-7 col-md-9">
+
+            	<h1>Aporta fondos para financiar proyectos en Sed Cero</h1>
+
+                <p>Dejanos tus datos y una persona de nuestro equipo se pondrá en contacto para explicarte como aportar fondos para financiar proyectos de Sed Cero</p>
 
 
-	            <div class="row">
+            	<div class="col-lg-3">
 
-	                <p></p>
+
+	                <form action="" role="form">
+
+	                	<label for="nombre">Nombre</label>
+	                	<input type="text" id="nombre">
+
+	                	<label for="email">Email</label>
+	                	<input type="email" id="email">
+
+	                	<label for="proyecto">Proyecto</label>
+	                	<select id="proyecto">
+	                		<option>Seleccione un proyecto</option>
+	                		<option>Agua para Rivadavia banda norte, Salta</option>
+	                		<option>Agua para el Salado Norte, Santiago del Estero</option>
+	                		<option>Agua para escuelas rurales, Salta</option>
+	                		<option>Potabilizaci&oacute;n de agua en el barrio Santa Mónica</option>
+	                		<option>Agua para el impenetrable, Chaco</option>
+	                		<option>Agua para escuela rural 14, Salta</option>
+	                		<option>Agua para escuela rural 28, Chaco</option>
+	                		<option>Agua para escuela rural 3, Santiago del estero</option>
+	                		<option>Agua para escuela rural 12, Salta</option>
+	                	</select>
+
+	                	<label for="mensaje">Mensaje</label>
+	                	<textarea id="mensaje"></textarea>
+
+	                	<input type="submit" title="Enviar datos" value="Enviar datos" class="clearfix">
+	                	<a title="Resetear datos" href="#" class="clearfix">borrar datos</a>
+
+
+	                </form>
+
+
 
 	            </div>
 
