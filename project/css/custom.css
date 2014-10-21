@@ -16,7 +16,6 @@ ol a {
 }
 
 h1 {
-	color: #ffa51d;
 	font-size: 32px;
 }
 h2 {
@@ -689,5 +688,10 @@ footer .sponsors img:first-of-type {
 	section.wrapper aside article img {
 	    height: 87px;
 	}
+	#detalle-proyecto ul.info {
+		margin-top: 60px;
+	}
+
+
 
 }
