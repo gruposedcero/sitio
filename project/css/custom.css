@@ -40,7 +40,7 @@ textarea {
 .btn-default {
     margin-top: -15px;
 }
-.noticia {
+.news {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -53,18 +53,18 @@ textarea {
 .thumbnail .caption {
     padding: 9px 9px 15px;
 }
-#detalle-proyecto ul.datos {
+#detalle-proyecto ul.info {
 	padding: 0;
 	margin-top: 60px;
 }
-#detalle-proyecto .alcance ul.datos {
+#detalle-proyecto .status ul.info {
 	margin-top: 0;
 	padding-left: 11px;
 }
-#detalle-proyecto .alcance {
+#detalle-proyecto .status {
 	min-height: 425px;
 }
-#detalle-proyecto .alcance p {
+#detalle-proyecto .status p {
 	margin-bottom: 2px;
 }
 #detalle-proyecto p.detail {
@@ -77,19 +77,25 @@ textarea {
 	font-size: 13px;
 	text-decoration: underline;
 }
-#detalle-proyecto .noticia img {
+#detalle-proyecto .video a:first-of-type:hover,
+a.link:hover {
+	color:#0066CC;
+	text-decoration: none;
+}
+
+#detalle-proyecto .news img {
 	width: 160px;
-	height: 100px;
+	height: 110px;
 	margin: 0 10px 10px 0;
 }
-#detalle-proyecto .noticia h4,
-#detalle-proyecto .noticia p:first-of-type {
+#detalle-proyecto .news h4,
+#detalle-proyecto .news p:first-of-type {
 	font-size: 12px;
 }
-#detalle-proyecto .noticia p:first-of-type a {
+#detalle-proyecto .news p:first-of-type a {
 	text-decoration: underline;
 }
-#detalle-proyecto .noticia h3 {
+#detalle-proyecto .news h3 {
 	margin-top: 10px;
 }
 #nuestros-proyectos h1 {
@@ -106,13 +112,17 @@ textarea {
 #detalle-proyecto .acciones a {
 	margin-right: 10px;
 }
-#detalle-proyecto h2{
+#detalle-proyecto .wrapper h2{
 	margin-top: 5px;
+	margin-left: 14px;
 }
 #detalle-proyecto .video img {
 	height: 50px;
     margin: 0 2px 20px 0;
     width: 80px;
+}
+video {
+	cursor: pointer;
 }
 #nuestros-proyectos .thumbnail h2:first-of-type {
 	margin-bottom: 5px;
@@ -638,6 +648,11 @@ footer .sponsors img:first-of-type {
 		padding-left: 35px;
 		min-height: 80px;
 	}
+	#detalle-proyecto ul.info {
+		margin-top: 85px;
+	}
+
+
 
 }
 
