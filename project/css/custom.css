@@ -25,6 +25,9 @@ h2 {
 	margin-bottom: 15px;
 	margin-top: 25px;
 }
+a.link {
+	text-decoration: underline;
+}
 label {
 	display: block;
 }
@@ -44,18 +47,73 @@ textarea {
     display: block;
     line-height: 1.42857;
     margin-bottom: 20px;
-    padding: 4px;
     transition: all 0.2s ease-in-out 0s;
-    padding: 5px 10px;
+    padding: 5px 10px 10px 10px;
  }
 .thumbnail .caption {
     padding: 9px 9px 15px;
+}
+#detalle-proyecto ul.datos {
+	padding: 0;
+	margin-top: 60px;
+}
+#detalle-proyecto .alcance ul.datos {
+	margin-top: 0;
+	padding-left: 11px;
+}
+#detalle-proyecto .alcance {
+	min-height: 425px;
+}
+#detalle-proyecto .alcance p {
+	margin-bottom: 2px;
+}
+#detalle-proyecto p.detail {
+	font-size: 12px;
+	margin-top: 3px;
+}
+#detalle-proyecto .video a:first-of-type {
+	margin-top: 3px;
+	display: block;
+	font-size: 13px;
+	text-decoration: underline;
+}
+#detalle-proyecto .noticia img {
+	width: 160px;
+	height: 100px;
+	margin: 0 10px 10px 0;
+}
+#detalle-proyecto .noticia h4,
+#detalle-proyecto .noticia p:first-of-type {
+	font-size: 12px;
+}
+#detalle-proyecto .noticia p:first-of-type a {
+	text-decoration: underline;
+}
+#detalle-proyecto .noticia h3 {
+	margin-top: 10px;
 }
 #nuestros-proyectos h1 {
 	margin-bottom: 13px;
     margin-top: 5px;
     color: #333333;
-}   
+}
+#detalle-proyecto .detalle-proyecto {
+	margin-top: 20px;
+}
+#detalle-proyecto .wrapper {
+	margin-top: 40px;
+}
+#detalle-proyecto .acciones a {
+	margin-right: 10px;
+}
+#detalle-proyecto h2{
+	margin-top: 5px;
+}
+#detalle-proyecto .video img {
+	height: 50px;
+    margin: 0 2px 20px 0;
+    width: 80px;
+}
 #nuestros-proyectos .thumbnail h2:first-of-type {
 	margin-bottom: 5px;
     margin-top: 10px;
@@ -85,6 +143,10 @@ p {
 }
 .left-border {
 	border-left: 1px solid #CCCCCC;
+	padding-bottom: 10px;
+}
+.right-border {
+	border-right: 1px solid #CCCCCC;
 	padding-bottom: 10px;
 }
 .float-left {
@@ -207,46 +269,46 @@ section:first-of-type p {
 	margin-bottom: 35px;
 	color:#595959;
 }
-section.nuestros-proyectos {
+section.wrapper {
     background-color: #F5F5F5;
     border: 1px solid #DDDDDD;
     padding: 15px 15px 20px 15px;
 }
-section.nuestros-proyectos h3 {
+section.wrapper h3 {
 	margin-bottom: 16px;
     margin-top: 7px;
 }
 
-section.nuestros-proyectos a:hover {
+section.wrapper a:hover {
 	text-decoration: none;
 }
 
-section.nuestros-proyectos a article:hover {
+section.wrapper a article:hover {
 	border: 1px solid #428bca;
 	box-shadow: 0px 0px 2px 0px #428bca;
 }
-section.nuestros-proyectos article h3 {
+section.wrapper article h3 {
 	font-size: 22px;
 }
-section.nuestros-proyectos article ul {
+section.wrapper article ul {
 	padding-left: 35px;
 }
-section.nuestros-proyectos article p {
+section.wrapper article p {
 	font-size: 14px;
 }
-section.nuestros-proyectos aside h3 {
+section.wrapper aside h3 {
     font-size: 16px;
     margin-bottom: 18px;
     margin-top: 14px;
 }
-section.nuestros-proyectos aside h4 {
+section.wrapper aside h4 {
 	font-size: 14px;
 	margin: 2px 0 0 0;
 }
-section.nuestros-proyectos aside article .caption {
+section.wrapper aside article .caption {
 	padding: 4px 2px;
 }
-section.nuestros-proyectos aside article img {
+section.wrapper aside article img {
 	height: 91px;
 	width: 100%;
 }
@@ -261,41 +323,41 @@ section.nuestros-proyectos aside article img {
 }
 
 /*botones*/
-section.nuestros-proyectos ul, ol {
+section.wrapper ul, ol {
     margin-bottom: 15px;
 }
-section.nuestros-proyectos .btn {
+section.wrapper .btn {
 	width: 100%;
 	display: inline;
 }
-section.nuestros-proyectos article .btn {
+section.wrapper article .btn {
 	display: block;
 }
-section.nuestros-proyectos .btn-general-container {
+section.wrapper .btn-general-container {
     margin: 0 auto;
     text-align: center;
     width: 200px;
 }
-section.nuestros-proyectos .btn-general-container span {
+section.wrapper .btn-general-container span {
 	padding: 5px;
 	display: inline;
 }
-section.nuestros-proyectos .btn-general-container a {
+section.wrapper .btn-general-container a {
 	padding: 0 5px 2px;
 	display: inline;
 	color: #204c72;
 	text-decoration: underline;
 }
-section.nuestros-proyectos div.btn-general-container a:hover {
+section.wrapper div.btn-general-container a:hover {
 	color: #333333;
 	text-decoration: underline;
 }
 
-section.nuestros-proyectos .btn-general-container .btn:hover {
+section.wrapper .btn-general-container .btn:hover {
 	color:#428bca;
 	text-decoration: underline;
 }
-section.nuestros-proyectos .btn.btn-general:hover {
+section.wrapper .btn.btn-general:hover {
 	text-decoration: underline;
 	color: #428bca;
 }
@@ -422,11 +484,11 @@ footer .sponsors img:first-of-type {
 	    margin-bottom: 13px;
 	    margin-right: -15px;
 	}
-	section.nuestros-proyectos article h3 {
+	section.wrapper article h3 {
 	    font-size: 18px;
 	}
 
-	section.nuestros-proyectos article ul {
+	section.wrapper article ul {
 	    padding-left: 20px;
 	}
 
@@ -518,18 +580,18 @@ footer .sponsors img:first-of-type {
 	    margin-top: 26px;
 	    padding-right: 15px;
 	}
-	section.nuestros-proyectos article h3 {
+	section.wrapper article h3 {
 	    font-size: 17px;
 	}
-	section.nuestros-proyectos article ul {
+	section.wrapper article ul {
 	    padding-left: 25px;
 	}
-	section.nuestros-proyectos aside h4 {
+	section.wrapper aside h4 {
 	    font-size: 13px;
 	    margin: 2px 0 0;
     	color: #595959;
 	}
-	section.nuestros-proyectos aside article img {
+	section.wrapper aside article img {
 	    height: 78px;
 	}
 
@@ -548,12 +610,12 @@ footer .sponsors img:first-of-type {
 	    margin-right: 10px;
 	}
 
-	section.nuestros-proyectos aside h3 {
+	section.wrapper aside h3 {
 	    font-size: 13px;
 	    margin-bottom: 20px;
 	    margin-top: 15px;
 	}
-	section.nuestros-proyectos .btn-general-container a {
+	section.wrapper .btn-general-container a {
 	    padding: 0 5px 4px;
 	}
 	.container .nav > li > a {
@@ -572,9 +634,9 @@ footer .sponsors img:first-of-type {
 	#nuestros-proyectos .thumbnail:first-of-type img.map {
 	    height: 100px;
 	}
-	section.nuestros-proyectos article ul {
+	section.wrapper article ul {
 		padding-left: 35px;
-		min-height: 93px;
+		min-height: 80px;
 	}
 
 }
@@ -609,8 +671,8 @@ footer .sponsors img:first-of-type {
 	    width: 53%;
 	    font-size: 32px;
 	}
-	section.nuestros-proyectos aside article img {
-	    height: 85px;
+	section.wrapper aside article img {
+	    height: 87px;
 	}
 
 }
