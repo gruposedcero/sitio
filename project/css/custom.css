@@ -51,6 +51,11 @@ textarea {
 .thumbnail .caption {
     padding: 9px 9px 15px;
 }
+#nuestros-proyectos h1 {
+	margin-bottom: 13px;
+    margin-top: 5px;
+    color: #333333;
+}   
 #nuestros-proyectos .thumbnail h2:first-of-type {
 	margin-bottom: 5px;
     margin-top: 10px;
