@@ -587,7 +587,7 @@ footer .sponsors img:first-of-type {
 	    display: inline;
 	}
 	#detalle-proyecto ul.info {
-		margin-top: 60px;
+	    margin-top: 0;
 	}
 	#detalle-proyecto .news img {
 		width: 160px;
