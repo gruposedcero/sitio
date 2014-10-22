@@ -154,17 +154,17 @@ a.link:hover {
 }
 #detalle-proyecto .video img {
 	height: 50px;
-    
-    width: 80px; 
+
+    width: 80px;
 
 }
 #detalle-proyecto .video a {
-    border: 1px solid #FFFFFF; 
+    border: 1px solid #FFFFFF;
     display: inline-block;
     margin: 0 2px 20px 0;
 }
 #detalle-proyecto .video a:hover {
-    border: 1px solid #428bca; 
+    border: 1px solid #428bca;
 }
 video {
 	cursor: pointer;
@@ -298,14 +298,14 @@ nav li a {
 }
 
 .nav > li a:hover {
-	background-color: #EEEEEE;
+	background-color: #dcdcd8;
 	color: #005e6f;
 	text-decoration: underline;
 }
 
 ul.nav > li a.active {
-	background-color: #F5F5F5;
-	color: #005e6f;
+	background-color: #dcdcd8;
+    color: #333333;
 	text-decoration: none;
 }
 ul.nav > li a.active:hover {
@@ -383,12 +383,12 @@ section:first-of-type .banner p {
     color: #595959;
     font-size: 13px;
     margin-bottom: 20px;
-    font-style: italic;   
+    font-style: italic;
 }
 section:first-of-type p {
     color: #595959;
     font-size: 13px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 section.wrapper {
     background-color: #F5F5F5;
@@ -781,7 +781,7 @@ footer .sponsors img:first-of-type {
 	    margin-right: -15px;
 	}
 	header .social-media, header .accesibility {
-	    margin-bottom: 8px;	    
+	    margin-bottom: 8px;
 	}
 	header .social-media {
 	    padding-right: 0px;
