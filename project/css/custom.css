@@ -170,6 +170,7 @@ video {
 	cursor: pointer;
 	width: 100%;
 	height: 30%;
+	border: 1px solid #DDDDDD;
 }
 #detalle-proyecto section:first-of-type .video p:first-of-type {
 	margin-bottom: 0;
