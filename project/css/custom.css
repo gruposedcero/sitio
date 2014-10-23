@@ -17,7 +17,7 @@ ol a {
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 20px;
 }
 #financiar-proyecto h1 {
 	font-size: 22px;
@@ -32,7 +32,7 @@ h3 {
     font-size: 20px;
 }
 section.wrapper article h3 {
-    font-size: 18px;
+    font-size: 16px;
 }
 a.link {
 	text-decoration: underline;
@@ -65,6 +65,7 @@ main {
 .thumbnail .caption {
     padding: 9px 9px 0;
 }
+
 #detalle-proyecto ul.info {
     margin-left: 15px;
     margin-top: 10px;
@@ -176,7 +177,7 @@ video {
 	margin-bottom: 0;
 }
 #audio-transcription h1 {
-	font-size: 24px;
+	font-size: 18px;
 	margin-bottom: 15px;
 }
 #audio-transcription section:first-of-type p {
@@ -543,6 +544,9 @@ footer .sponsors img:first-of-type {
     margin-right: 30px;
     margin-top: 10px;
 }
+#financiar-proyecto h1 {
+    font-size: 20px;
+}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
@@ -564,8 +568,15 @@ footer .sponsors img:first-of-type {
 	.nav-pills > li {
 		float: left;
 	}
+
 	#financiar-proyecto h1 {
 		font-size: 27px;
+	}
+	#nuestros-proyectos h1 {
+		font-size: 22px;
+	}
+	#detalle-proyecto h1 {
+	    font-size: 22px;
 	}
 	h2 {
 
@@ -574,7 +585,10 @@ footer .sponsors img:first-of-type {
 	h3, .h3 {
     	font-size: 24px;
 	}
-
+	#audio-transcription h1 {
+		font-size: 24px;
+		margin-bottom: 15px;
+	}
 	section.wrapper article h3 {
 	    font-size: 22px;
 	}
@@ -760,7 +774,10 @@ footer .sponsors img:first-of-type {
 	    font-size: 27px;
 	    color: #282828;
 	}
-
+	#nuestros-proyectos h1,
+	#detalle-proyecto h1  {
+	    font-size: 27px;
+	}
 	p {
 	    font-size: 13px;
 	    margin: 0 0 5px;
@@ -869,7 +886,15 @@ footer .sponsors img:first-of-type {
 
 /* Large devices (large desktops, 1200px and up) */
     @media screen and (min-width: 1200px) {
-
+	h1 {
+	    font-size: 32px;
+	}
+	#nuestros-proyectos h1 {
+	    font-size: 27px;
+	}
+	#financiar-proyecto h1 {
+	    font-size: 32px;
+	}
 	/* Main Menu */
 	.container .nav > li > a {
 		padding: 10px 35px;
